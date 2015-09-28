@@ -1,0 +1,41 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+public class add {
+    public static void main(String args[]){
+
+        private int intPriority;
+        private String stringPriority; 
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.println("Enter description: ");
+        String description = input.nextLine();
+        System.out.println("Enter Day, Month, Year separated by spaces: ");
+        String date = input.nextLine();
+        System.out.println("Enter priority as [i]nt or [s]tring? : ");
+        String priorityType = input.nextLine();
+        if(priorityType == "i")
+        {
+          System.out.println("Enter priority as int: ");
+        }
+
+
+        ArrayList<ToDoItem> ListShit = new ArrayList<ToDoItem>(); 
+        ToDoItem item = new ToDoItem();
+        ListShit.add(whatever, whatever, whatever, things, stuff); //Change this to your actual inputs
+    }
+}
+  
+  public class ToDoItem {
+      private String description;
+      private String date; // going to have to tokenize this at some point. 
+      private String priorityType;
+      //etc
+      public ToDoItem(String desc, String d8, String priorityT.... etc etc){
+        description = desc; 
+        date = d8;
+        priorityType = priorityT; 
+        //Obviously, you can make the input names whatever you want. To distinguish them, I changed their names so you could see what was goin on. 
+      }
+      
+  }
