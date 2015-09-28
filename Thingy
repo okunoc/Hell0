@@ -31,7 +31,7 @@ public class idkclass {
         //NOT SURE IF THIS WORKS THOUGH, remember its been like a year since I java'd. But this is basically the idea. 
         //You can use tokenize in the same way too.
         
-        //After you get your game tokens, you know that because you input date in order of date, month, year, you gon get
+        //After you get your game tokens, you know that because you input date in order of day, month, year, you gon get
         //your tokens in that order too. so
         int Day = token[0];
         int Month = token[1];
