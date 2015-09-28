@@ -37,7 +37,7 @@ public class idkclass {
         int Month = token[1];
         int Year = token[2];
         
-        //Now put this shit in vvvvvvvvvv down there in the V 
+        //Now put this shit in vvvvvvvvvv down there in the ToDoItem stuff
 
 
         ArrayList<ToDoItem> ListShit = new ArrayList<ToDoItem>(); 
