@@ -22,7 +22,7 @@ public class add {
 
         ArrayList<ToDoItem> ListShit = new ArrayList<ToDoItem>(); 
         ToDoItem item = new ToDoItem();
-        ListShit.add(whatever, whatever, whatever, things, stuff); //Change this to your actual inputs
+        ListShit.add(new item(description, date, whateverwahtwhthwat)); //Change this to your actual inputs
     }
 }
   
