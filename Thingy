@@ -18,6 +18,26 @@ public class add {
         {
           System.out.println("Enter priority as int: ");
         }
+        else{
+            System.out.println("Enter that shit as a string u fuk: ");
+        }
+        
+        //WE GON SPLIT SHIT.
+        String[] tokens;
+        for(int i = 0; i < 3; i++){
+            tokens[i] = date.split(" ");
+        }
+        //So basically what this is doing is its tokenizing based on " ". Anything before a " " will be put into an array.
+        //NOT SURE IF THIS WORKS THOUGH, remember its been like a year since I java'd. But this is basically the idea. 
+        //You can use tokenize in the same way too.
+        
+        //After you get your game tokens, you know that because you input date in order of date, month, year, you gon get
+        //your tokens in that order too. so
+        int Day = token[0];
+        int Month = token[1];
+        int Year = token[2];
+        
+        //Now put this shit in vvvvvvvvvv down there in the V 
 
 
         ArrayList<ToDoItem> ListShit = new ArrayList<ToDoItem>(); 
