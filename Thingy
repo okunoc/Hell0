@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 import java.util.Scanner;
-public class add {
+public class idkclass {
     public static void main(String args[]){
 
         private int intPriority;
