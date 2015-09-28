@@ -41,8 +41,10 @@ public class idkclass {
 
 
         ArrayList<ToDoItem> ListShit = new ArrayList<ToDoItem>(); 
-        ToDoItem item = new ToDoItem();
-        ListShit.add(new item(description, date, whateverwahtwhthwat)); //Change this to your actual inputs
+        ToDoItem item = new ToDoItem(description, date, whateverwahtwhthwat input bs shitter); 
+        //Instantiating the ToDoItem. the public shit down there VVV
+        ListShit.add(item); 
+        //Cleaned up code so it makes more sense. Just adding item you made
     }
 }
   
